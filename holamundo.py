@@ -1,2 +1,4 @@
 import streamlit as st
-st.write("Hola Mundo")
+
+nombre=st.text_input("Nombre? ")
+st.write("Hola " +nombre)
